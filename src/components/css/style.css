@@ -24,3 +24,18 @@
 .gradient-item{
   margin-top: 20px;
 }
+
+.card-header{
+  padding: 5px;
+}
+.btn-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.header-text{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: #aaa;
+}

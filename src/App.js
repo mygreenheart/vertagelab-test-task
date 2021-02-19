@@ -4,6 +4,7 @@ import { Container, Navbar, Nav } from "react-bootstrap"
 
 import Home from "./components/js/Home"
 import NewGradient from "./components/js/NewGradient"
+import EditGradient from "./components/js/EditGradient"
 import Other from "./components/js/Other"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/new" component={NewGradient} />
+          <Route path="/edit/:id" component={EditGradient} />
           <Route component={Other} />
         </Switch>
       </Router>

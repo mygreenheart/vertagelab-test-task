@@ -34,6 +34,7 @@ export default function NewGradient() {
 
     return (
         <>
+            <h1 className="header-text">Add new gradient</h1>
             <Form>
                 <Row>
                     <Col>
@@ -43,7 +44,9 @@ export default function NewGradient() {
                         <Form.Control size="sm" type="text" placeholder="#ffffff" onChange={(e) => setColorTo(e.target.value)} required />
                     </Col>
                 </Row>
-                <Button disabled={isDisable} href="/" variant="primary" type="submit" onClick={handleAdd}>Submit </Button>
+                <div className="btn-container">
+                    <Button disabled={isDisable} href="/" variant="primary" type="submit" onClick={handleAdd} >Add gradient</Button>
+                </div>
             </Form>
         </>
     )
