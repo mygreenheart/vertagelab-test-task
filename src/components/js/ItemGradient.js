@@ -4,8 +4,7 @@ import "../css/style.css"
 
 
 export default function ItemGradient(props) {
-
-
+    
     return (
         <Card style={{ width: '80%' }} className="mb-2" className="gradient-item bg-dark text-white text-center">
             <Card.Header>

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home js shoude correct render 1`] = `
+<div
+  className="gradient-items"
+/>
+`;

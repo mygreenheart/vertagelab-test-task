@@ -5,7 +5,7 @@ import "../css/style.css"
 export default function Home() {
     const [gradientData, setGradientData] = useState(JSON.parse(localStorage.getItem("gradientData")))
 
-    function handleDelete(id) {
+    const handleDelete = (id) => {
         const fillterGradientData = gradientData.filter(e => {
             return e.id !== id
         })
